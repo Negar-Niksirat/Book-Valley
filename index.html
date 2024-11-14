@@ -2,7 +2,8 @@
 <html>
     <head>
 
-        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <title>BookValley</title>
         <link rel="stylesheet" href="CSS/style.css">
     </head>
@@ -11,15 +12,15 @@
     
     
     <body>
-        <header>
+        <div class="header">
             <div class="rightSection">
-                <h1>BookValley</h1>
+                <img src="Photo/Logo.png" alt="" style="width: 25%; height: 25%;">
                 <form>
-                    <input class="search" type="text" name="txtsearch" placeholder="search in BookValley">
+                    <input id="search" type="text" name="txtsearch" placeholder="search in BookValley">
                 </form>
             </div>
-            <a href="loginPage.html" title="login" target="_blank" >Log in</a>
-        </header>
+            <a href="loginPage.html" title="login" target="_blank" id="login">Log in</a>
+        </div>
         <div class="container">
             <section class="section">
                 <h2 class="detail" style="  margin-top:15%;">Enjoy reading and listening to books</h2>
