@@ -1,0 +1,68 @@
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+    background-color: #F2EAD7;
+    
+
+}
+
+.Login-form
+{
+  color: #495900;
+  background-color: white;
+  border: 1px solid #E8EAEE;
+  border-radius: 10px ;
+  box-shadow: 7px 8px 8px #626847;
+  width:25%;
+  display: flex;
+  flex-direction: column;
+  margin: 12%;
+  padding:0.5%;
+  font-size: 160%;
+  
+    
+
+  
+}
+h2
+{
+
+  color: #495900;
+  text-align: center;
+
+
+}
+
+button
+{
+    color: white;
+    background-color: #495900;
+    border: 0;
+    border-radius: 8px;
+    margin: 2%;
+    width:auto;
+    font-size: 100%;
+    padding: 2%;
+}
+a{
+  color: #495900;
+  margin: 2%;
+}
+input
+{
+  padding: 2%;
+  margin: 2%;
+  border:2px solid #495900;
+  border-radius: 8px;
+
+
+}
+label
+{
+  margin: 2% ;
+}
