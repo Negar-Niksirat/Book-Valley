@@ -90,7 +90,6 @@ input:focus
     width: 30%;
     height: 30%;
 }
-
 hr
 {
     width: 100%;
@@ -99,22 +98,18 @@ h3
 {
     font-size: xx-large;
     margin-left: 5%;
+    color: black;
+    text-align: left;
 }
 
 .container 
 {
-    display: flex; 
-    justify-content: space-between; 
-    align-items: flex-start; 
+
     height: auto;
     width: 100%;
-    padding:5% 0 5% 0 ;
-    background-color: #F2EAD7;  
-    color: black;
+    margin-bottom: 5%;
     
 
-   
-    
 }
 p
 {
@@ -122,29 +117,68 @@ p
     margin: 0.25%;
     padding: 0;
 }
-.picture
+.books
 {
-    list-style: none;
+   
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+.bookCard
+{
+    border: 3px solid #F1F1EC;
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 0.5%;
+    min-width: 200px;
+    min-height: 200px;
+}
+.bookCard-img
+{
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 4px;
+
+    
+
+   
+    
+}
+.bookCard-text
+{
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-
-
-    
-
-
+    align-items: flex-start;
+    align-self: flex-start;
+    flex-direction: column;
+    color: black;
+    margin-left: 4%;
 }
-.img
+h5
 {
-    width: 10%;
-    height: 10%;
-    padding: 2.75%;
-    
+    padding: 0;
+    margin: 0;
+    font-size: large;
+    text-align: justify;
 }
-
-
+h6
+{
+    font-size: medium;
+    padding: 0;
+    margin: 0;
+}
+.bookCard span
+{
+    font-size: small;
+    color: #666666;
+}
 footer
 {
     width: 100%;
