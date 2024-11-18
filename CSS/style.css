@@ -111,12 +111,7 @@ h3
     
 
 }
-p
-{
-    font-size:  230%;
-    margin: 0.25%;
-    padding: 0;
-}
+
 .books
 {
    
@@ -130,7 +125,7 @@ p
 .bookCard
 {
     border: 3px solid #F1F1EC;
-    
+    background-color: white;
     display: flex;
     justify-content: center; 
     align-items: center; 
