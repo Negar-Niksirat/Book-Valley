@@ -141,10 +141,6 @@ h3
     max-height: 300px;
     border-radius: 4px;
 
-    
-
-   
-    
 }
 .bookCard-text
 {
@@ -174,14 +170,27 @@ h6
     font-size: small;
     color: #666666;
 }
-footer
+.footer
 {
     width: 100%;
+    height: auto;
     color: black;
-    background-color: #CED6AB;
     display: flex;
-    justify-content: space-between;
-    align-items:center;
-    height: 10%;
+  
+    align-items:flex-start;
+    flex-direction: column;
+    margin:2% 5% 0 5% ;
+    
+
+
 
 }
+#designerName
+{
+    background-color: #8c271e;
+    width: 100%;
+    margin: 0;
+    color: #F0E7D8;
+    text-align: center;
+}
+
